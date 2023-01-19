@@ -45,10 +45,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void printStudentDetails(Student student) {
-        Log.d("MainActivity - NAME", student.getName());
-        Log.d("MainActivity - SURNAME", student.getSurname());
+        Log.d("MainActivity - EMAIL", student.getEmail());
+        Log.d("MainActivity - PASS", student.getPass());
     }
 
-    public void verValor
 
 }
