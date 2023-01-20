@@ -1,9 +1,6 @@
 package com.example.mvc_netflix_1.controller;
 
-import android.widget.EditText;
-
 import com.example.mvc_netflix_1.MainActivity;
-import com.example.mvc_netflix_1.R;
 import com.example.mvc_netflix_1.model.StudentWS;
 import com.example.mvc_netflix_1.model.pojo.Student;
 
@@ -29,6 +26,4 @@ public class StudentController {
         student.setEmail(email);
         student.setPass(pass);
     }
-
-
 }

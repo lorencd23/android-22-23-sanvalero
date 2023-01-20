@@ -15,7 +15,7 @@ public class Student {
         this.email = email;
     }
 
-    public Strign getPass() {
+    public String getPass() {
         return pass;
     }
 

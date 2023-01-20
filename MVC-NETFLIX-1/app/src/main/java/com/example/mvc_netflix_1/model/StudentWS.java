@@ -11,5 +11,4 @@ public class StudentWS {
         //student.setSurname("Palotes");
         return student;
     }
-
 }
