@@ -39,7 +39,7 @@ public class UpdateSimpsonActivity extends AppCompatActivity implements UpdateSi
 
     @Override
     public void successUpdateSimpson(ArrayList<Simpson> uptSimpson) {
-        Toast.makeText(this, "Actualizado con exito", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Actualizado con exito: " + uptSimpson.size() + " lineas actualizadas", Toast.LENGTH_LONG).show();
     }
 
     @Override
