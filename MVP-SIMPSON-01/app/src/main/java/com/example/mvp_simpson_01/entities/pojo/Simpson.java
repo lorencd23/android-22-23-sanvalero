@@ -1,4 +1,4 @@
-package com.example.mvp_simpson_01.lst_simpson.model.pojo;
+package com.example.mvp_simpson_01.entities.pojo;
 
 public class Simpson {
     /*

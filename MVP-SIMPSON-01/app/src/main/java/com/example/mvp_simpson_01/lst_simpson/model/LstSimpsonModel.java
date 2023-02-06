@@ -1,7 +1,7 @@
 package com.example.mvp_simpson_01.lst_simpson.model;
 
 import com.example.mvp_simpson_01.lst_simpson.LstSimpsonContract;
-import com.example.mvp_simpson_01.lst_simpson.model.pojo.Simpson;
+import com.example.mvp_simpson_01.entities.pojo.Simpson;
 
 public class LstSimpsonModel implements LstSimpsonContract.Model {
 

@@ -1,6 +1,6 @@
 package com.example.mvp_simpson_01.lst_simpson;
 
-import com.example.mvp_simpson_01.lst_simpson.model.pojo.Simpson;
+import com.example.mvp_simpson_01.entities.pojo.Simpson;
 
 import java.util.ArrayList;
 
@@ -10,6 +10,7 @@ public interface LstSimpsonContract {
         void failureLstSimpson(String err);
     }
     public interface Presenter{
+        // Caso de uso
         void lstSimpson(Simpson simpson);
     }
     public interface Model{
