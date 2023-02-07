@@ -21,7 +21,12 @@ public class LstSimpsonPresenter implements LstSimpsonContract.Presenter {
         lstSimpsonModel.lstSimpsonWS(null, new LstSimpsonContract.Model.OnLstSimpsonListener() {
             @Override
             public void onSuccess(ArrayList<Simpson> lstSimpson) {
-                view.successLstSimpson(lstSimpson);
+                if(lstSimpson != null && lstSimpson.size()>0){
+                    view.successLstSimpson(lstSimpson);
+                }else{
+                    view.failureLstSimpson("Los datos no han llegado correctamente...");
+                }
+
             }
 
             @Override

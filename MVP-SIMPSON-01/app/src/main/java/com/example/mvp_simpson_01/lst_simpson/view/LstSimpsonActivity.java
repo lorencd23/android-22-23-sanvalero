@@ -42,6 +42,7 @@ public class LstSimpsonActivity extends AppCompatActivity implements LstSimpsonC
     @Override
     public void successLstSimpson(ArrayList<Simpson> lstSimpson) {
         // Adapter notify set data changed
+        Toast.makeText(this, lstSimpson.get(0).toString(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
